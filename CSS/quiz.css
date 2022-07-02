@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-color: bisque;
+    width: 50%;
+    position: relative;
+    left: 26%;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0,  0 , 0 , 0.7);
+}
+h1{
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+.questcontainer{
+    text-align: center;
+    margin: 10px 10px;
+    padding: 9px 9px;
+}
+.questcontainer p{
+    font-weight: bolder;
+}
+#btn-submit{
+    position: relative;
+    left: 38%;
+    width: 140px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    margin: 15px;
+    padding: 10px;
+}
+#btn-submit:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: lightsteelblue;
+}
+.outputRes{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 19px;
+    padding: 10px 10px;
+}

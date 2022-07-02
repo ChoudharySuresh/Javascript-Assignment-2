@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUiz Test 📝</title>
+    <link rel="stylesheet" href="CSS/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>DBMS Quiz</h1>
+        
+        <form class="quiz-form">
+            <div class="questcontainer">
+                <p>What is the full form of DBMS?</p>
+                    <label> <input type="radio" class="input" name="question1" value="Data of Binary Management System">Data of Binary Management System</label>
+                    <label> <input type="radio" class="input" name="question1" value="Database Management System">Database Management System</label>
+                    <label> <input type="radio" class="input" name="question1" value="Database Management service">Database Management service</label>
+                    <label> <input type="radio" class="input" name="question1" value="Data Backup Management System">Data Backup Management System</label>
+            </div>
+    
+            <div class="questcontainer">
+                <p>Which type of data can be stored in the database?</p>
+                <label> <input type="radio" name="question2" value="Image oriented data">Image oriented data</label>
+                <label> <input type="radio" name="question2" value="Text, files containing data">Text, files containing data</label>
+                <label> <input type="radio" name="question2" value="Data in the form of audio or video">Data in the form of audio or video</label>
+                <label> <input type="radio" name="question2" value="All of the above">All of the above</label>
+            </div>
+    
+            <div class="questcontainer">
+                <p>Which of the following is not a type of database?</p>
+                <label> <input type="radio" name="question3" value=" Hierarchical"> Hierarchical</label>
+                <label> <input type="radio" name="question3" value="Network">Network</label>
+                <label> <input type="radio" name="question3" value="Distributed">Distributed</label>
+                <label> <input type="radio" name="question3" value="Decentralized">Decentralized</label>
+            </div>
+    
+            <div class="questcontainer">
+                <p>Which of the following is not an example of DBMS?</p>
+                <label> <input type="radio" name="question4" value="MySQL">MySQL</label>
+                <label> <input type="radio" name="question4" value="IBM DB2">IBM DB2</label>
+                <label> <input type="radio" name="question4" value="Microsoft Acess">Microsoft Acess</label>
+                <label> <input type="radio" name="question4" value="Google">Google</label>
+            </div>
+    
+            <div class="questcontainer">
+                <p>The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________</p>
+                <label> <input type="radio" name="question5" value="TCL (Transaction Control Language)">TCL (Transaction Control Language)</label>
+                <label> <input type="radio" name="question5" value="DCL (Data Control Language)">DCL (Data Control Language)</label>
+                <label> <input type="radio" name="question5" value="DDL (Data Definition Langauge)">DDL (Data Definition Langauge)</label>
+                <label> <input type="radio" name="question5" value="DML (Data Manipulation Langauge)">DML (Data Manipulation Langauge)</label>
+            </div>
+        </form>
+        <button id="btn-submit">Submit</button>
+        <div class="outputRes"></div>
+    </div>
+</body>
+<script src="JS/quiz.js"></script>
+</html>
